@@ -50,6 +50,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   min-height: 220px;
 }
 .custom-footer .second-box .links span:first-of-type {
+  display: block;
   font-family: var(--heading-font-family);
   font-size: 1.125rem;
   margin: 0px 0px 2rem 0px;
