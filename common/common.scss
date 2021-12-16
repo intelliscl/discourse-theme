@@ -1,4 +1,10 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body {
+  --font-family: 'Inter', sans-serif;
+  --heading-font-family: 'Rubik', sans-serif;
+}
 
 input[type="text"],
 input[type="password"],
@@ -136,11 +142,13 @@ a {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    border: none;
+    border: .5px solid rgba(100,146,253,0.2);
     border-top: 8px solid;
     background: var(--secondary);
     @include border-radius;
-    box-shadow: 0px 2px 3px 0px rgba(2,47,57,.14);
+    box-shadow: 0px 6px 15px rgb(154 161 177 / 8%);
+    transform: translateY(0px);
+    transition: all ease-out 0.2s;
     .category-box-inner {
       border: none;
       padding: 0;
@@ -149,7 +157,7 @@ a {
       }
     }
     &:hover {
-      box-shadow: 0px 40px 30px 0px rgba(2,47,57,.10);
+      box-shadow: 0px 11px 30px rgb(154 161 177 / 17%);
       transform: translateY(-2px);
     }
   }
@@ -236,9 +244,9 @@ a {
   &.active {
     @include border-radius;
     transition: all 0.3s linear;
-    background: $color-mint;
+    background: var(--quaternary);
     color: var(--secondary);
-    border: 1px solid $color-mint;
+    border: 1px solid var(--quaternary);
   }
 }
 
