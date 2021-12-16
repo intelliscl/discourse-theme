@@ -386,4 +386,17 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 .custom-footer {
   background-color: var(--tertiary) !important;
+  font-family: 'Inter',sans-serif !important;
+}
+.custom-footer .first-box .heading {
+  background-image: url(https://www.intellischool.co/hubfs/Intellischool%20Logo%20-%20White.svg);
+  background-repeat: no-repeat;
+  background-size: 250px 44px;
+  height: 44px;
+  width: 250px;
+}
+.custom-footer .first-box .heading::after {
+  content: "Level 1, Melbourne Connect \A 700 Swanston St \A Carlton, Victoria 3053 \A Australia";
+  display: block;
+  white-space: pre-wrap;
 }
