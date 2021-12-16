@@ -39,6 +39,17 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   transform-origin: 0 100%;
 }
 
+.headerLink a {
+  border-bottom: 2px solid var(--white) !important;
+  font-size: 0.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.headerLink a:hover {
+  color: var(--quaternary) !important;
+  border-bottom: 2px solid var(--quaternary) !important;
+}
+
 .custom-footer {
   margin: 120px 0px 0px 0px;
   padding: 120px 0px;
