@@ -33,6 +33,7 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   border-radius: 30px;
   background: var(--quaternary);
   left: 70px;
+  opacity: 0.2;
   top: 350px;
   transform: rotate(74deg);
   transform-origin: 0 100%;
