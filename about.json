@@ -1,12 +1,12 @@
 {
-  "name": "Mint",
+  "name": "Intellischool",
   "about_url": null,
   "license_url": null,
   "color_schemes": {
     "mint": {
       "primary": "454545",
-      "secondary": "F6FBFC",
-      "tertiary": "4F8A7C",
+      "secondary": "302B63",
+      "tertiary": "FA7268",
       "header_background": "ffffff",
       "header_primary": "111111"
     }
