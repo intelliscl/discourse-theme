@@ -414,3 +414,9 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   text-indent: 0px;
   white-space: pre-wrap;
 }
+.custom-footer .footer-section-link {
+  color: var(--white) !important;
+}
+.custom-footer .footer-section-link:hover {
+  color: var(--quaternary) !important;
+}
