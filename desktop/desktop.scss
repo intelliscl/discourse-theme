@@ -45,6 +45,9 @@ body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
 .custom-footer .wrap {
   width: 1110px;
 }
-.custom-footer .second-box .links {
+.custom-footer .first-box {
+  min-height: 220px;
+}
+.custom-footer .second-box .links .list {
   margin: 0px 42px;
 }
